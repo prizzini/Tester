@@ -1,0 +1,17 @@
+﻿1- Banner: 5
+2- Menu and Menu Sticky: 5
+3- Layout and Interface Website: 10
+4- Ads Left and Right: 5
+5- List News: 10
+6- Read More: 5
+7- Footer: 5
+8- Ads Bottom: 5
+9- Ads Bottom Sticky: 5
+10- Close Ads Bottom Sticky: 5
+11- To Top: 5
+12- Responsive Website: 10
+13- Menu Responsive: 10
+14- Hide Ads when Responsive: 5
+15- Close Ads Bottom Sticky when Responsive: 5
+16- Upload Project to Hosting Server: 5
+

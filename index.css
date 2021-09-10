@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+	padding: 1em;
+}
+
+.Banner {
+    width: 100%;
+}
+
+.Logo {
+    width: 30px;
+    margin-right: auto; 
+}
+
+.header{
+	background-color: rgb(17, 130, 174);
+}
+
+li, a, button {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Nav-Links {
+    position: sticky;
+    top: 0;
+}
+
+.Nav-Links li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.Nav-Links li a {
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.Nav-Links li a:hover {
+    background: orange;
+    padding: 10px 10px;
+    color: black;
+}
+
+
+
+.wrapper{
+	display: flex;
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: center;
+}
+.wrapper>*{
+	padding: 10px;
+	flex: 1 100%;
+}
+
+.ads {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.ads.sticky {
+    
+}
+
+.footer{
+	background: rgb(17, 130, 174);
+}
+
+.left {
+    color: white;
+    padding: 0px 3%;
+    display: inline-block;
+}
+
+.middle {
+    color: white;
+    padding: 0px 3%;
+    display: inline-block;
+}
+
+.right {
+    color: white;
+    padding: 0px 3%;
+    display: inline-block;
+}
+
+.main{
+	text-align: left;
+	background: white;
+}
+
+/* Aside */
+.aside-1{
+    display: inline-block;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.aside-1 img {
+    width: 280px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.aside-2{
+    display: inline-block;
+    padding: 0;
+}
+
+.aside-2 img {
+    margin: 10px;
+    border-radius: 10px;
+    width: 280px;
+}
+
+
+/* News */
+.News1 {
+    padding-top: 5px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.main p {
+    text-align: justify;
+    line-height: 1;
+}
+
+
+
+
+
+
+
+@media all and (min-width:600px){
+	.aside{
+		flex: 1 0 0;
+	}
+}
+@media all and (min-width: 800px) {
+	.main{
+		flex: 3 0px;
+	}
+	.aside-1{
+		order: 1;
+	}
+	.main{
+		order: 2;
+	}
+	.aside-2{
+		order: 3;
+	}
+	.footer{
+		order: 4;
+	}
+	
+}
